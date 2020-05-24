@@ -12,3 +12,8 @@ Kafka consumer based on forked repo example from https://github.com/confluentinc
 | Name    | Description                                  |
 |---------|----------------------------------------------|
 | Port    |   Listen and serve                           |
+
+# Usage
+```sh
+curl -d '{ "column1_in_clickhouse": "value", "column2_in_clickhouse": "value" }' localhost:8080/my_kafka_topic_name
+```
